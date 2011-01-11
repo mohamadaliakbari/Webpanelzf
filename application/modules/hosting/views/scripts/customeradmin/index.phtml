@@ -1,0 +1,15 @@
+<table width="100%" cellpadding="0px" cellspacing="0px" border="0" class="list">
+    <tr>
+        <th><?php echo $this->translate('Firstname'); ?></th>
+        <th><?php echo $this->translate('Lastname'); ?></th>
+        <th><?php echo $this->translate('Email'); ?></th>
+        <th><?php echo $this->translate('Telephone'); ?></th>
+        <th><?php echo $this->translate('Mobile'); ?></th>
+        <th><?php echo $this->translate('Discount'); ?> <a class="mini-help" title="<?php echo $this->translate('Percent'); ?>">(?)</a></th>
+        <th><?php echo $this->translate('Function'); ?></th>
+    </tr>
+    <?php echo $this->partialLoop('customeradmin/row.phtml', $this->paginator); ?>
+    <tr>
+        <td colspan="7" align="center"><?php echo $this->paginationControl($this->paginator, 'Sliding', 'customeradmin/pagination-control.phtml'); ?></td>
+    </tr>
+</table>

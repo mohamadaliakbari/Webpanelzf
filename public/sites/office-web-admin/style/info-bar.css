@@ -1,0 +1,38 @@
+.info-bar {
+	width: 100%;
+	height: 21px;
+	background: url('images/info-bar.jpg') repeat-x;
+}
+
+.info-bar .path {
+	float: right;
+	height: 11px;
+	padding: 5px 10px;
+}
+
+.info-bar .info {
+	float: left;
+	height: 11px;
+	padding: 5px 10px;
+}
+
+.info-bar .slider {
+	width: 200px;
+	float: right;
+	height: 11px;
+	margin: 5px;
+}
+
+.info-bar .plus {
+	float: right;
+	height: 15px;
+	margin: 3px;
+	cursor: pointer;
+}
+
+.info-bar .minus {
+	float: right;
+	height: 15px;
+	margin: 3px;
+	cursor: pointer;
+}

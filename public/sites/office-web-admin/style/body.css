@@ -1,0 +1,24 @@
+.body {
+	background: url('images/body-bg.jpg') repeat-x top #6591cd;
+	width: 100%;
+}
+
+.body-inner {
+	background: url('images/body-top-left.png') no-repeat top left;
+	width: 100%;
+	padding-top: 27px;
+	padding-bottom: 10px;
+}
+
+.body-main {
+	background: #FFFFFF;
+	border: 1px solid #666666;
+	width: 75%;
+	padding: 10px;
+	margin: 0px auto;
+}
+
+.body-main-inner {
+    width: 100%;
+    display: inline-block;
+}

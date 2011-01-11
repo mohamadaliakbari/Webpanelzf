@@ -1,0 +1,54 @@
+<?php
+$controllerFront = Zend_Controller_Front::getInstance();
+$moduleName = $controllerFront->getRequest()->getModuleName();
+$controllerName = $controllerFront->getRequest()->getControllerName();
+$actionName = $controllerFront->getRequest()->getActionName();
+
+$menu = array();
+$menu['hosting'] = array('indexadmin' => array('index' => 'Home', 'setting' => 'Setting')
+    , 'planadmin' => array('index' => 'List', 'add' => 'New')
+    , 'customeradmin' => array('index' => 'List', 'add' => 'New')
+    , 'orderadmin' => array('index' => 'List', 'add' => 'New'));
+?>
+<div class="title_bar">
+    <?php echo $this->translate('Webpanelzf Admin Panel'); ?>
+    <a href="<?php echo $this->url(array('action' => 'indexindex')); ?>"><img src="<?php echo $this->baseUrl('sites/office-web-admin/images/icons/16/home.png'); ?>" /></a>
+    <a href="#"><img src="<?php echo $this->baseUrl('sites/office-web-admin/images/icons/16/gear.png'); ?>" /></a>
+    <a href="#"><img src="<?php echo $this->baseUrl('sites/office-web-admin/images/icons/16/help.png'); ?>" /></a>
+    <a href="#"><img src="<?php echo $this->baseUrl('sites/office-web-admin/images/icons/16/info.png'); ?>" /></a>
+    <a href="#"><img src="<?php echo $this->baseUrl('sites/office-web-admin/images/icons/16/warning.png'); ?>" /></a>
+    <a href="#"><img src="<?php echo $this->baseUrl('sites/office-web-admin/images/icons/16/exit.png'); ?>" /></a>
+</div>
+<div class="controller-bar">
+    <ul>
+        <?php
+        foreach ($menu as $_moduleName => $module) {
+            if ($_moduleName == $moduleName) {
+                $_class = 'active';
+            } else {
+                $_class = '';
+            }
+            echo '<li id="menu-' . $_moduleName . '" title="' . $this->translate($_moduleName) . '" class="' . $_class . '"><a href="' . $this->url(array('action' => 'index', 'controller' => 'indexadmin', 'module' => $_moduleName)) . '">' . $this->translate($_moduleName) . '</a></li>';
+        }
+        ?>
+    </ul>
+</div>
+<?php
+        foreach ($menu as $_moduleName => $module) {
+            echo '<div class="action-bar hidden" id="action-menu-' . $_moduleName . '">';
+            foreach ($module as $_controllerName => $controller) {
+                echo '<div class="box">';
+                foreach ($controller as $_actionName => $action) {
+                    if (($_moduleName == $moduleName) && ($_controllerName == $controllerName) && ($_actionName == $actionName)) {
+                        $_class = 'active';
+                    } else {
+                        $_class = '';
+                    }
+                    echo '<a class="icon ' . $_class . '" title="' . $this->translate($action) . '" href="' . $this->url(array('action' => $_actionName, 'controller' => $_controllerName, 'module' => $_moduleName)) . '"><img src="' . $this->baseUrl('sites/office-web-admin/images/icons/32/' . $_actionName . '.png') . '" /><br/>' . $this->translate($action) . '</a>';
+                }
+                echo '<div class="label">' . $this->translate($_controllerName) . '</div>';
+                echo '</div>';
+            }
+            echo '</div>';
+        }
+?>

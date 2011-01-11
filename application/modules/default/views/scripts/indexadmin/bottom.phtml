@@ -1,0 +1,28 @@
+<?php
+$controllerFront = Zend_Controller_Front::getInstance();
+$moduleName = $controllerFront->getRequest()->getModuleName();
+$controllerName = $controllerFront->getRequest()->getControllerName();
+$actionName = $controllerFront->getRequest()->getActionName();
+?>
+<div class="info-bar">
+    <img class="plus" src="<?php echo $this->baseUrl('sites/office-web-admin/images/icons/16/plus.png'); ?>" />
+    <div class="slider" id="slider"></div>
+    <img class="minus" src="<?php echo $this->baseUrl('sites/office-web-admin/images/icons/16/minus.png'); ?>" />
+    <div class="path">
+        <a href="<?php echo $this->url(array('action' => 'index', 'controller' => 'indexadmin', 'module' => $moduleName), null, true); ?>"><?php echo $this->translate($moduleName) ?></a>
+        >
+        <a href="<?php echo $this->url(array('action' => 'index', 'controller' => $controllerName, 'module' => $moduleName), null, true); ?>"><?php echo $this->translate($controllerName) ?></a>
+        >
+        <a href="<?php echo $this->url(); ?>"><?php echo $this->translate($actionName) ?></a>
+    </div>
+    <div class="info">
+        <?php
+        try {
+            echo $this->action('actiondescription', $controllerName, $moduleName, array('actionName' => $actionName));
+        } catch (Exception $exc) {
+            //echo $exc->getTraceAsString();
+            echo $this->translate('Webpanelzf Admin Panel');
+        }
+        ?>
+    </div>
+</div>

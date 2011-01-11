@@ -1,0 +1,88 @@
+.box3 {
+	width: 740px;
+	height: 100px;
+	float: right;
+	padding: 10px 10px;
+	background: #EEEEEE;
+	margin-bottom: 10px;
+}
+.box3 .title {
+	width: 730px;
+	height: 12px;
+	float: right;
+	font-weight: bold;
+	padding: 5px;
+	background: #FFFFFF;
+}
+.box3 .bg1 {
+	border-top: 8px solid #948C75;
+	width: 175px;
+	height: 60px;
+	padding: 5px;
+	float: right;
+	background: #FFFFFF;
+}
+
+.box3 .bg1:HOVER {
+	background: #948C75;
+	color: #FFFFFF;
+}
+.box3 .bg1:HOVER a{
+	background: #948C75;
+	color: #FFFFFF;
+}
+.box3 .bg2 {
+	border-top: 8px solid #D9CEB2;
+	width: 175px;
+	height: 60px;
+	padding: 5px;
+	float: right;
+	background: #FFFFFF;
+}
+.box3 .bg2:HOVER {
+	background: #D9CEB2;
+}
+.box3 .bg3 {
+	border-top: 8px solid #D5DED9;
+	width: 175px;
+	height: 60px;
+	padding: 5px;
+	float: right;
+	background: #FFFFFF;
+}
+.box3 .bg3:HOVER {
+	background: #D5DED9;
+}
+.box3 .bg4 {
+	border-top: 8px solid #99B2B7;
+	width: 175px;
+	height: 60px;
+	padding: 5px;
+	float: right;
+	background: #FFFFFF;
+}
+.box3 .bg4:HOVER {
+	background: #99B2B7;
+	color: #FFFFFF;
+}
+.box3 .bg4:HOVER a{
+	color: #FFFFFF;
+}
+.box3 span {
+	font-size:1.1em;
+	font-weight:bold;
+	letter-spacing:-0.05em;
+	margin:0;
+	text-transform:lowercase;
+}
+
+.box3 img {
+	float: right;
+	margin-left: 10px;
+}
+
+.box3 a {
+	background:none repeat scroll 0 0 transparent;
+	color:#666666;
+	display:block;
+}

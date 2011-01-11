@@ -1,0 +1,986 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: castrol\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-08 21:45+0330\n"
+"PO-Revision-Date: 2010-10-08 21:50+0330\n"
+"Last-Translator: amirhosseinakbari <amirhossainakbari@yahoo.com>\n"
+"Language-Team: roshd\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;translate\n"
+"X-Poedit-Basepath: C:\\wamp\\www\\castrol\n"
+"X-Poedit-Language: Persian\n"
+"X-Poedit-Country: IRAN, ISLAMIC REPUBLIC OF\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: application\n"
+
+#: application/modules/member/controllers/IndexController.php:18
+msgid "Login"
+msgstr "ورود"
+
+#: application/modules/default/views/scripts/index/index.phtml:3
+#: application/modules/default/views/scripts/index/index.phtml:16
+#: application/modules/default/views/scripts/index/index.phtml:25
+msgid "Box Title"
+msgstr "عنوان باکس"
+
+#: application/modules/default/views/scripts/index/index.phtml:6
+msgid "New Order"
+msgstr "سفارش جدید"
+
+#: application/modules/default/views/scripts/index/index.phtml:8
+msgid "New User/Customer"
+msgstr "مشتری/کاربر جدید"
+
+#: application/modules/default/views/scripts/index/index.phtml:10
+msgid "New Product Type"
+msgstr "نوع محصول جدید"
+
+#: application/modules/default/views/scripts/index/index.phtml:19
+#: application/modules/default/views/scripts/index/index.phtml:28
+msgid "Box Content"
+msgstr "محتویات باکس"
+
+#: application/modules/member/views/scripts/index/add.phtml:3
+msgid "Add new:"
+msgstr "افزودن"
+
+#: application/modules/member/views/scripts/index/add.phtml:6
+#: application/modules/member/views/scripts/index/add.phtml:168
+#: application/modules/member/views/scripts/index/addrole.phtml:43
+#: application/modules/order/views/scripts/index/add.phtml:30
+msgid "Customer"
+msgstr "مشتری"
+
+#: application/modules/member/views/scripts/index/add.phtml:7
+#: application/modules/order/views/scripts/index/add.phtml:345
+msgid "User"
+msgstr "کاربر"
+
+#: application/modules/member/views/scripts/index/add.phtml:13
+msgid "Personal Information"
+msgstr "اطلاعات شخصی"
+
+#: application/modules/member/views/scripts/index/add.phtml:17
+msgid "First name"
+msgstr "نام"
+
+#: application/modules/member/views/scripts/index/add.phtml:18
+msgid "Last name"
+msgstr "نام خانوادگی"
+
+#: application/modules/member/views/scripts/index/add.phtml:19
+msgid "Email"
+msgstr "پست الکترونیکی"
+
+#: application/modules/member/views/scripts/index/add.phtml:20
+msgid "Identity Card Number"
+msgstr "شماره شناسنامه"
+
+#: application/modules/member/views/scripts/index/add.phtml:21
+msgid "Birthday"
+msgstr "تولد"
+
+#: application/modules/member/views/scripts/index/add.phtml:22
+msgid "National ID"
+msgstr "کد ملی"
+
+#: application/modules/member/views/scripts/index/add.phtml:23
+#: application/modules/member/views/scripts/index/add.phtml:39
+#: application/modules/member/views/scripts/index/add.phtml:107
+#: application/modules/member/views/scripts/index/add.phtml:121
+#: application/modules/member/views/scripts/index/add.phtml:186
+#: application/modules/member/views/scripts/index/add.phtml:212
+#: application/modules/member/views/scripts/index/addrole.phtml:90
+#: application/modules/order/views/scripts/index/add.phtml:364
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:84
+msgid "Save"
+msgstr "ذخیره"
+
+#: application/modules/member/views/scripts/index/add.phtml:24
+#: application/modules/member/views/scripts/index/add.phtml:40
+#: application/modules/member/views/scripts/index/add.phtml:122
+msgid "Edit"
+msgstr "ویرایش"
+
+#: application/modules/member/views/scripts/index/add.phtml:31
+msgid "Account Information"
+msgstr "اطلاعات حساب"
+
+#: application/modules/member/views/scripts/index/add.phtml:35
+msgid "User Name"
+msgstr "نام کاربری"
+
+#: application/modules/member/views/scripts/index/add.phtml:36
+msgid "User Status"
+msgstr "وضعیت کاربری"
+
+#: application/modules/member/views/scripts/index/add.phtml:37
+msgid "Active"
+msgstr "فعال"
+
+#: application/modules/member/views/scripts/index/add.phtml:38
+msgid "Inactive"
+msgstr "غیر فعال"
+
+#: application/modules/member/views/scripts/index/add.phtml:41
+msgid "Change Password"
+msgstr "تغییر پسورد"
+
+#: application/modules/member/views/scripts/index/add.phtml:48
+msgid "Costumer & Contract Information"
+msgstr "اطلاعات قرارداد و مشتری"
+
+#: application/modules/member/views/scripts/index/add.phtml:52
+msgid "Costumer Code"
+msgstr "کد مشتری"
+
+#: application/modules/member/views/scripts/index/add.phtml:53
+#, fuzzy
+msgid "Costumer Group"
+msgstr "گروه مشتری"
+
+#: application/modules/member/views/scripts/index/add.phtml:54
+msgid "Group1"
+msgstr "گروه1"
+
+#: application/modules/member/views/scripts/index/add.phtml:55
+msgid "Group2"
+msgstr "گروه2"
+
+#: application/modules/member/views/scripts/index/add.phtml:57
+msgid "Tedad rooz shamel e takhfif khosh hesabi dar gharardad"
+msgstr "تعداد روز شامل تخفیف خوش حسابی در قرارداد"
+
+#: application/modules/member/views/scripts/index/add.phtml:57
+msgid "Days"
+msgstr "روزها"
+
+#: application/modules/member/views/scripts/index/add.phtml:58
+msgid "State"
+msgstr "استان"
+
+#: application/modules/member/views/scripts/index/add.phtml:60
+msgid "State1"
+msgstr "استان1"
+
+#: application/modules/member/views/scripts/index/add.phtml:61
+msgid "State2"
+msgstr "استان2"
+
+#: application/modules/member/views/scripts/index/add.phtml:63
+msgid "Town"
+msgstr "شهر"
+
+#: application/modules/member/views/scripts/index/add.phtml:65
+msgid "Town1"
+msgstr "شهر1"
+
+#: application/modules/member/views/scripts/index/add.phtml:66
+msgid "Town2"
+msgstr "شهر2"
+
+#: application/modules/member/views/scripts/index/add.phtml:68
+#: application/modules/order/views/scripts/index/add.phtml:162
+msgid "Address"
+msgstr "آدرس"
+
+#: application/modules/member/views/scripts/index/add.phtml:74
+msgid "Targret Information"
+msgstr "اطلاعات Target"
+
+#: application/modules/member/views/scripts/index/add.phtml:77
+#: application/modules/member/views/scripts/index/addrole.phtml:6
+#: application/modules/member/views/scripts/index/addrole.phtml:55
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:6
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:47
+msgid "New"
+msgstr "جدید"
+
+#: application/modules/member/views/scripts/index/add.phtml:80
+#, fuzzy
+msgid "New Target"
+msgstr "سفارش جدید"
+
+#: application/modules/member/views/scripts/index/add.phtml:85
+#: application/modules/member/views/scripts/index/add.phtml:214
+#: application/modules/order/views/scripts/index/add.phtml:109
+msgid "From"
+msgstr "از"
+
+#: application/modules/member/views/scripts/index/add.phtml:85
+#: application/modules/member/views/scripts/index/add.phtml:96
+#: application/modules/order/views/scripts/index/add.phtml:109
+#: application/modules/order/views/scripts/index/add.phtml:120
+msgid "Select"
+msgstr "انتخاب"
+
+#: application/modules/member/views/scripts/index/add.phtml:89
+#: application/modules/member/views/scripts/index/add.phtml:100
+#: application/modules/order/views/scripts/index/add.phtml:113
+#: application/modules/order/views/scripts/index/add.phtml:124
+msgid "Equivalent"
+msgstr "برابر"
+
+#: application/modules/member/views/scripts/index/add.phtml:93
+#: application/modules/order/views/scripts/index/add.phtml:117
+msgid "Jalali"
+msgstr "شمسی"
+
+#: application/modules/member/views/scripts/index/add.phtml:96
+#: application/modules/member/views/scripts/index/add.phtml:214
+#: application/modules/order/views/scripts/index/add.phtml:120
+msgid "To"
+msgstr "به"
+
+#: application/modules/member/views/scripts/index/add.phtml:104
+#: application/modules/order/views/scripts/index/add.phtml:128
+msgid "Gregorian"
+msgstr "میلادی"
+
+#: application/modules/member/views/scripts/index/add.phtml:113
+msgid "Targets"
+msgstr "Targets"
+
+#: application/modules/member/views/scripts/index/add.phtml:128
+#: application/modules/order/views/scripts/index/add.phtml:48
+#: application/modules/order/views/scripts/index/add.phtml:192
+msgid "Summary of Financial Status"
+msgstr "خلاصه وضعیت مالی"
+
+#: application/modules/member/views/scripts/index/add.phtml:133
+#: application/modules/order/views/scripts/index/add.phtml:53
+msgid "Debtor"
+msgstr "بدهکار"
+
+#: application/modules/member/views/scripts/index/add.phtml:137
+#: application/modules/order/views/scripts/index/add.phtml:57
+msgid "Creditor"
+msgstr "بستانکار"
+
+#: application/modules/member/views/scripts/index/add.phtml:141
+#: application/modules/order/views/scripts/index/add.phtml:61
+msgid "Balance"
+msgstr "معادل"
+
+#: application/modules/member/views/scripts/index/add.phtml:147
+msgid "Pending Payments"
+msgstr "سندهای در حال وصول"
+
+#: application/modules/member/views/scripts/index/add.phtml:153
+#: application/modules/order/views/scripts/index/add.phtml:67
+msgid "View Complete Financial File"
+msgstr "مشاهده کامل پرونده مالی"
+
+#: application/modules/member/views/scripts/index/add.phtml:159
+msgid "User Privilege"
+msgstr "دسترسی کاربری"
+
+#: application/modules/member/views/scripts/index/add.phtml:162
+msgid "Workgroup"
+msgstr "گروه کاری"
+
+#: application/modules/member/views/scripts/index/add.phtml:163
+#: application/modules/member/views/scripts/index/addrole.phtml:42
+#: application/modules/order/views/scripts/index/add.phtml:8
+msgid "Supervisor"
+msgstr "سوپروایزر"
+
+#: application/modules/member/views/scripts/index/add.phtml:164
+msgid "Warehouse1"
+msgstr "انبار1"
+
+#: application/modules/member/views/scripts/index/add.phtml:165
+msgid "Warehouse2"
+msgstr "انبار2"
+
+#: application/modules/member/views/scripts/index/add.phtml:166
+msgid "Sales executive"
+msgstr "مجری فروش"
+
+#: application/modules/member/views/scripts/index/add.phtml:167
+msgid "Supply chain manager"
+msgstr "مدیر کارخانه"
+
+#: application/modules/member/views/scripts/index/add.phtml:169
+msgid "Manager director"
+msgstr "مدیر عامل"
+
+#: application/modules/member/views/scripts/index/add.phtml:170
+msgid "Finance"
+msgstr "مالی"
+
+#: application/modules/member/views/scripts/index/add.phtml:171
+#: application/modules/member/views/scripts/index/addrole.phtml:51
+msgid "Logestic"
+msgstr "لجستیک"
+
+#: application/modules/member/views/scripts/index/add.phtml:172
+#: application/modules/member/views/scripts/index/addrole.phtml:52
+msgid "Admin"
+msgstr "مدیر سایت"
+
+#: application/modules/member/views/scripts/index/add.phtml:173
+msgid "Salesman"
+msgstr "فروشنده"
+
+#: application/modules/member/views/scripts/index/add.phtml:174
+msgid "User Role"
+msgstr "نقش کاربر در سیستم"
+
+#: application/modules/member/views/scripts/index/add.phtml:175
+msgid "Supervisor OEM"
+msgstr "سوپروایزر OEM"
+
+#: application/modules/member/views/scripts/index/add.phtml:176
+msgid "Supervisor FWS"
+msgstr "سوپروایزر FWS"
+
+#: application/modules/member/views/scripts/index/add.phtml:177
+msgid "Sales executive OEM"
+msgstr "مجری فروش OEM"
+
+#: application/modules/member/views/scripts/index/add.phtml:178
+msgid "Sub customer groups"
+msgstr "گروه های مشتری زیرمجموعه"
+
+#: application/modules/member/views/scripts/index/add.phtml:179
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:52
+msgid "Select All"
+msgstr "انتخاب همه"
+
+#: application/modules/member/views/scripts/index/add.phtml:180
+msgid "Bazzari 1"
+msgstr "بازاری 1"
+
+#: application/modules/member/views/scripts/index/add.phtml:181
+msgid "Bazzari 2"
+msgstr "بازاری 2"
+
+#: application/modules/member/views/scripts/index/add.phtml:182
+msgid "FWS"
+msgstr "FWS"
+
+#: application/modules/member/views/scripts/index/add.phtml:187
+#: application/modules/member/views/scripts/index/add.phtml:213
+#: application/modules/member/views/scripts/index/addrole.phtml:91
+#: application/modules/order/views/scripts/index/add.phtml:365
+#: application/modules/order/views/scripts/index/add.phtml:382
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:85
+msgid "Cancel"
+msgstr "انصراف"
+
+#: application/modules/member/views/scripts/index/add.phtml:211
+#: application/modules/member/views/scripts/index/addrole.phtml:21
+#: application/modules/member/views/scripts/index/addrole.phtml:28
+#: application/modules/member/views/scripts/index/addrole.phtml:108
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:21
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:28
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:102
+msgid "View"
+msgstr "نمایش"
+
+#: application/modules/member/views/scripts/index/add.phtml:216
+#: application/modules/member/views/scripts/index/add.phtml:224
+#, fuzzy
+msgid "Product type"
+msgstr "نوع محصول"
+
+#: application/modules/member/views/scripts/index/add.phtml:218
+msgid "Unit"
+msgstr "واحد"
+
+#: application/modules/member/views/scripts/index/add.phtml:220
+msgid "Amount"
+msgstr "مقدار"
+
+#: application/modules/member/views/scripts/index/add.phtml:222
+#: application/modules/order/views/scripts/index/add.phtml:269
+#: application/modules/order/views/scripts/index/add.phtml:341
+msgid "Add"
+msgstr "افزودن"
+
+#: application/modules/member/views/scripts/index/add.phtml:224
+#: application/modules/member/views/scripts/index/addrole.phtml:10
+#: application/modules/member/views/scripts/index/addrole.phtml:58
+#: application/modules/member/views/scripts/index/groups.phtml:10
+#: application/modules/member/views/scripts/index/units.phtml:10
+#: application/modules/order/views/scripts/index/add.phtml:281
+#: application/modules/product/views/scripts/index/add.phtml:10
+#: application/modules/product/views/scripts/index/addtype.phtml:10
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:10
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:50
+msgid "Function"
+msgstr "عملیات"
+
+#: application/modules/member/views/scripts/index/add.phtml:224
+#: application/modules/member/views/scripts/index/addrole.phtml:11
+#: application/modules/member/views/scripts/index/addrole.phtml:59
+#: application/modules/member/views/scripts/index/groups.phtml:11
+#: application/modules/member/views/scripts/index/units.phtml:11
+#: application/modules/order/views/scripts/index/add.phtml:282
+#: application/modules/product/views/scripts/index/add.phtml:11
+#: application/modules/product/views/scripts/index/addtype.phtml:11
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:11
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:51
+msgid "Row"
+msgstr "ردیف"
+
+#: application/modules/member/views/scripts/index/add.phtml:224
+msgid "Amount-Unit"
+msgstr "مقدار واحد"
+
+#: application/modules/member/views/scripts/index/add.phtml:224
+#, fuzzy
+msgid "Amount-Liter"
+msgstr "مقدار لیتر"
+
+#: application/modules/member/views/scripts/index/add.phtml:224
+msgid "Unit Cost"
+msgstr "هزینه واحد"
+
+#: application/modules/member/views/scripts/index/add.phtml:224
+msgid "Cost"
+msgstr "هزینه"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:3
+msgid "Defined Group Roles Table"
+msgstr "جدول نقش گرو های تعریف شده"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:7
+#: application/modules/member/views/scripts/index/groups.phtml:7
+#: application/modules/member/views/scripts/index/units.phtml:7
+#: application/modules/product/views/scripts/index/add.phtml:7
+#: application/modules/product/views/scripts/index/addtype.phtml:7
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:7
+msgid "Back to previous page"
+msgstr "بازگشت به صفحه قبل"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:12
+#: application/modules/member/views/scripts/index/addrole.phtml:37
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:12
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:37
+msgid "Group code"
+msgstr "کد گروه"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:13
+#: application/modules/member/views/scripts/index/addrole.phtml:39
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:13
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:39
+msgid "Group name"
+msgstr "نام گروه"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:14
+msgid "Work Group & Users"
+msgstr "گروه های کاری و کاربران"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:34
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:34
+msgid "Add Form"
+msgstr "افزودن فرم"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:41
+#: application/modules/member/views/scripts/index/addrole.phtml:77
+msgid "Work Groups"
+msgstr "گروه کاری"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:44
+#, fuzzy
+msgid "Seler"
+msgstr "فروشنده"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:45
+msgid "Warehouse 1"
+msgstr "انبار 1"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:46
+msgid "Warehouse 2"
+msgstr "انبار 2"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:47
+msgid "Sales man"
+msgstr "فروشنده"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:48
+msgid "Factory manager"
+msgstr "مدیر کارخانه"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:49
+msgid "Manager"
+msgstr "مدیر"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:50
+msgid "Financial"
+msgstr "مالی"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:54
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:46
+msgid "Users of this group"
+msgstr "کاربران این گروه"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:60
+msgid "User Code"
+msgstr "کد کاربری"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:61
+msgid "User name"
+msgstr "نام کاربری"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:78
+msgid "Make new order"
+msgstr "ایجاد سفارش جدید"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:79
+msgid "Edit Orders"
+msgstr "ویرایش سفارش"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:80
+msgid "Cancel Orders"
+msgstr "لغو سفارش"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:81
+msgid "Remove Orders"
+msgstr "حذف سفارش"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:82
+msgid "Define cheque"
+msgstr "تعریف چک"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:83
+msgid "Assign cheque"
+msgstr "assign چک"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:84
+msgid "Approve cheque"
+msgstr "تأیید چک"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:85
+msgid "Approve HAVALE"
+msgstr "تأیید حواله"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:86
+msgid "Approve Orders"
+msgstr "تأیید سفارش"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:87
+msgid "Finilize Orders"
+msgstr "تأیید سفارش"
+
+#: application/modules/member/views/scripts/index/addrole.phtml:88
+msgid "___"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/groups.phtml:3
+msgid "Add Customer Group"
+msgstr "افزودن گروه مشتری"
+
+#: application/modules/member/views/scripts/index/groups.phtml:6
+msgid "New Group"
+msgstr "گروه جدید"
+
+#: application/modules/member/views/scripts/index/groups.phtml:12
+msgid "Group Code"
+msgstr "کد گروه"
+
+#: application/modules/member/views/scripts/index/groups.phtml:13
+msgid "Group Name"
+msgstr "نام گروه"
+
+#: application/modules/member/views/scripts/index/groups.phtml:14
+msgid "Group Members"
+msgstr "اعضای گروه"
+
+#: application/modules/member/views/scripts/index/index.phtml:2
+#: application/modules/member/views/scripts/index/index.phtml:3
+msgid "hi"
+msgstr "سلام"
+
+#: application/modules/member/views/scripts/index/index.phtml:4
+msgid "bye"
+msgstr "خداحافظ"
+
+#: application/modules/member/views/scripts/index/index.phtml:5
+msgid "bye2"
+msgstr "خداحافظ2"
+
+#: application/modules/member/views/scripts/index/index.phtml:6
+#, php-format
+msgid "To day id %s"
+msgstr "امروز هست %s"
+
+#: application/modules/member/views/scripts/index/units.phtml:3
+msgid "Add New Unit"
+msgstr "افزودن واحد جدید"
+
+#: application/modules/member/views/scripts/index/units.phtml:6
+msgid "New Unit"
+msgstr "واحد جدید"
+
+#: application/modules/member/views/scripts/index/units.phtml:12
+msgid "Unit Code"
+msgstr "کد واحد"
+
+#: application/modules/member/views/scripts/index/units.phtml:13
+msgid "Unit Name In System"
+msgstr "عنوان واحد در سیستم"
+
+#: application/modules/member/views/scripts/index/units.phtml:14
+msgid "Unit Name in GFO"
+msgstr "عنوان واحد در GFO"
+
+#: application/modules/member/views/scripts/index/units.phtml:15
+msgid "Unit Type"
+msgstr "نوع واحد"
+
+#: application/modules/order/views/scripts/index/add.phtml:3
+msgid "Choose Customer"
+msgstr "انتخاب مشتری"
+
+#: application/modules/order/views/scripts/index/add.phtml:19
+msgid "Seller"
+msgstr "فروشنده"
+
+#: application/modules/order/views/scripts/index/add.phtml:42
+msgid "Retrieving Draft Orders"
+msgstr "فراخوانی سفارش های Draft"
+
+#: application/modules/order/views/scripts/index/add.phtml:73
+msgid "General Info of the Order"
+msgstr "اطلاعات کلی سفارش"
+
+#: application/modules/order/views/scripts/index/add.phtml:78
+msgid "Customer Name"
+msgstr "نام مشتری"
+
+#: application/modules/order/views/scripts/index/add.phtml:82
+msgid "Customer Group"
+msgstr "گروه مشتری"
+
+#: application/modules/order/views/scripts/index/add.phtml:90
+msgid "Type of Deliveyr"
+msgstr "نحوه ارسال سفارش"
+
+#: application/modules/order/views/scripts/index/add.phtml:104
+msgid "Delivery Date"
+msgstr "تاریخ دریافت"
+
+#: application/modules/order/views/scripts/index/add.phtml:133
+msgid "Delivery Address"
+msgstr "آدرس مقصد"
+
+#: application/modules/order/views/scripts/index/add.phtml:135
+msgid "Customer Address"
+msgstr "آدرس مشتری"
+
+#: application/modules/order/views/scripts/index/add.phtml:136
+msgid "Iran Kanoon"
+msgstr "ایران کانون"
+
+#: application/modules/order/views/scripts/index/add.phtml:137
+msgid "New Address"
+msgstr "آدرس جدید"
+
+#: application/modules/order/views/scripts/index/add.phtml:143
+msgid "Choose State"
+msgstr "انتخاب استان"
+
+#: application/modules/order/views/scripts/index/add.phtml:152
+msgid "City"
+msgstr "شهر"
+
+#: application/modules/order/views/scripts/index/add.phtml:170
+msgid "Telephone"
+msgstr "تلفن"
+
+#: application/modules/order/views/scripts/index/add.phtml:174
+msgid "Mobile"
+msgstr "موبایل"
+
+#: application/modules/order/views/scripts/index/add.phtml:178
+msgid "Fax"
+msgstr "فکس"
+
+#: application/modules/order/views/scripts/index/add.phtml:197
+msgid "Choose Product Type"
+msgstr "انتخاب نوع محصول"
+
+#: application/modules/order/views/scripts/index/add.phtml:206
+msgid "Order Unit"
+msgstr "واحد سفارش"
+
+#: application/modules/order/views/scripts/index/add.phtml:216
+msgid "Order Value"
+msgstr "ارزش سفارش"
+
+#: application/modules/order/views/scripts/index/add.phtml:220
+msgid "Equivalents"
+msgstr "برابرها"
+
+#: application/modules/order/views/scripts/index/add.phtml:224
+msgid "Gallons and"
+msgstr "گالون و"
+
+#: application/modules/order/views/scripts/index/add.phtml:228
+msgid "Liter"
+msgstr "لیتر"
+
+#: application/modules/order/views/scripts/index/add.phtml:231
+#: application/modules/order/views/scripts/index/add.phtml:286
+msgid "Unit Price"
+msgstr "قیمت واحد"
+
+#: application/modules/order/views/scripts/index/add.phtml:235
+#: application/modules/order/views/scripts/index/add.phtml:240
+#: application/modules/order/views/scripts/index/add.phtml:245
+#: application/modules/order/views/scripts/index/add.phtml:252
+#: application/modules/order/views/scripts/index/add.phtml:257
+#: application/modules/order/views/scripts/index/add.phtml:261
+msgid "Rls"
+msgstr "ریال"
+
+#: application/modules/order/views/scripts/index/add.phtml:236
+msgid "Overall"
+msgstr "مجموع"
+
+#: application/modules/order/views/scripts/index/add.phtml:241
+#: application/modules/order/views/scripts/index/add.phtml:288
+msgid "Agency Discount"
+msgstr "تخفیف نمایندگی"
+
+#: application/modules/order/views/scripts/index/add.phtml:248
+#: application/modules/order/views/scripts/index/add.phtml:289
+msgid "VAT"
+msgstr "VAT"
+
+#: application/modules/order/views/scripts/index/add.phtml:253
+msgid "Overall Price Calculating Discount and VAT"
+msgstr "مبلغ کل با اقساط تخفیف و VAT"
+
+#: application/modules/order/views/scripts/index/add.phtml:265
+msgid "Priority To Be Delivered."
+msgstr "اولویت ارسال دارد"
+
+#: application/modules/order/views/scripts/index/add.phtml:270
+msgid "Reset"
+msgstr "مجدد"
+
+#: application/modules/order/views/scripts/index/add.phtml:276
+msgid "Added Products to Order"
+msgstr "کالای اضافه شده در سفارش"
+
+#: application/modules/order/views/scripts/index/add.phtml:283
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:54
+msgid "Product Name"
+msgstr "نام محصول"
+
+#: application/modules/order/views/scripts/index/add.phtml:284
+msgid "Value-Unit"
+msgstr "مقدار واحد"
+
+#: application/modules/order/views/scripts/index/add.phtml:285
+msgid "Value-Liter"
+msgstr "مقدار لیتر"
+
+#: application/modules/order/views/scripts/index/add.phtml:287
+msgid "Overall Price"
+msgstr "جمع کل"
+
+#: application/modules/order/views/scripts/index/add.phtml:290
+msgid "Final Price"
+msgstr "مبلغ نهایی"
+
+#: application/modules/order/views/scripts/index/add.phtml:320
+msgid "Oveall Price"
+msgstr "جمع کل"
+
+#: application/modules/order/views/scripts/index/add.phtml:335
+#: application/modules/order/views/scripts/index/add.phtml:358
+msgid "Description"
+msgstr "توضیحات"
+
+#: application/modules/order/views/scripts/index/add.phtml:349
+msgid "Unchangeable"
+msgstr "غیر قابل تغییر"
+
+#: application/modules/order/views/scripts/index/add.phtml:352
+msgid "Title"
+msgstr "عنوان"
+
+#: application/modules/order/views/scripts/index/add.phtml:372
+msgid "Delete"
+msgstr "حذف"
+
+#: application/modules/order/views/scripts/index/add.phtml:373
+msgid "Final Submission"
+msgstr "ثبت نهایی"
+
+#: application/modules/order/views/scripts/index/add.phtml:374
+msgid "Confirm"
+msgstr "تأیید"
+
+#: application/modules/order/views/scripts/index/add.phtml:375
+msgid "Reject"
+msgstr "انصراف"
+
+#: application/modules/order/views/scripts/index/add.phtml:376
+msgid "Send To SOE"
+msgstr "ارسال برای مدیر عامل"
+
+#: application/modules/order/views/scripts/index/add.phtml:379
+msgid "Print Draft Order"
+msgstr "چاپ پیش سفارش"
+
+#: application/modules/order/views/scripts/index/add.phtml:380
+msgid "Return To Previous Page"
+msgstr "بازگشت به صفحه قبل"
+
+#: application/modules/order/views/scripts/index/add.phtml:381
+msgid "Save Draft"
+msgstr "ذخیره در Draft"
+
+#: application/modules/order/views/scripts/index/add.phtml:383
+#: application/modules/order/views/scripts/index/add.phtml:387
+msgid "Print Order"
+msgstr "چاپ سفارش"
+
+#: application/modules/order/views/scripts/index/add.phtml:386
+msgid "Your Order Has Been Submitted For Being Reviewed. The Order ID is 2"
+msgstr "سفارش شما جهت بررسی در شرکت ارسال شد. شماره سفارش شما 2 است."
+
+#: application/modules/product/views/scripts/index/add.phtml:3
+msgid "Added Products"
+msgstr "محصولات تعریف شده"
+
+#: application/modules/product/views/scripts/index/add.phtml:6
+msgid "New Product"
+msgstr "محصول جدید"
+
+#: application/modules/product/views/scripts/index/add.phtml:12
+msgid "Product Code"
+msgstr "کد محصول"
+
+#: application/modules/product/views/scripts/index/add.phtml:13
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:53
+msgid "Product Type"
+msgstr "نوع محصول"
+
+#: application/modules/product/views/scripts/index/add.phtml:14
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:55
+msgid "Product Unit"
+msgstr "واحد محصول"
+
+#: application/modules/product/views/scripts/index/add.phtml:15
+msgid "Liter Per Unit"
+msgstr "لیتر در هر واحد"
+
+#: application/modules/product/views/scripts/index/add.phtml:16
+msgid "Number Per Package"
+msgstr "تعداد در هر بسته"
+
+#: application/modules/product/views/scripts/index/add.phtml:17
+msgid "Product Name For Customers"
+msgstr "عنوان کالا برای مشتری"
+
+#: application/modules/product/views/scripts/index/add.phtml:18
+msgid "Product Name In Firm"
+msgstr "عنوان کالا در شرکت"
+
+#: application/modules/product/views/scripts/index/addtype.phtml:3
+msgid "Add new product type"
+msgstr "افزودن نوع محصول جدید"
+
+#: application/modules/product/views/scripts/index/addtype.phtml:6
+msgid "New product type"
+msgstr "ایجاد نوع محصول جدید"
+
+#: application/modules/product/views/scripts/index/addtype.phtml:12
+msgid "Product type code"
+msgstr "ایجاد نوع محصول جدید"
+
+#: application/modules/product/views/scripts/index/addtype.phtml:13
+msgid "Name"
+msgstr "نام"
+
+#: application/modules/product/views/scripts/index/addtype.phtml:14
+msgid "RPL (Rial)"
+msgstr "RPL (ریال)"
+
+#: application/modules/product/views/scripts/index/addtype.phtml:15
+msgid "Waiting time for production"
+msgstr "زمان انتظار برای تولید محصول"
+
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:3
+msgid "Add Group, Agency Discount, Production"
+msgstr "افزودن گروه، تخفیف نمایندگی، محصول"
+
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:14
+msgid "Subcustomer Group, List of Prices and Discounts"
+msgstr "مشتری زیرمجموعه، لیست قیمت ها و تخفیف ها"
+
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:41
+#, fuzzy
+msgid "Subcustomer Groups"
+msgstr "گروه های مشتری زیرمجموعه"
+
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:42
+#, fuzzy
+msgid "Bazari 1 Isfahan"
+msgstr "بازاری 1"
+
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:43
+#, fuzzy
+msgid "Bazari 2 Tehran"
+msgstr "بازاری 2"
+
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:44
+msgid "Toyota FWS"
+msgstr "Toyota (FWS)"
+
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:56
+msgid "Price"
+msgstr "قیمت"
+
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:57
+msgid "Agency Discout Pecentage"
+msgstr "درصد تخفیف نمایندگی"
+
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:58
+msgid "Discount (Rls)"
+msgstr "تخفیف (ریال)"
+
+#: application/views/layouts/default/index.phtml:2
+msgid "Castrol"
+msgstr "کاسترول"
+
+#: application/views/layouts/default/index.phtml:36
+msgid "Persian"
+msgstr "فارسی"
+
+#: application/views/layouts/default/index.phtml:38
+msgid "English"
+msgstr "انگلیسی"
+
+#: application/views/layouts/default/index.phtml:41
+msgid "Welcome dear user"
+msgstr "خوش آمدید کاربر عزیز"
+
+#: application/views/layouts/default/index.phtml:43
+msgid "Homepage"
+msgstr "صفحه نخست"
+
+#: application/views/layouts/default/index.phtml:45
+msgid "Logout"
+msgstr "خروج"
+
+#: application/views/layouts/default/index.phtml:47
+msgid "Edit Profile"
+msgstr "ویرایش پروفایل"
+
+#: application/views/layouts/default/index.phtml:54
+msgid "All right reserver &copy; Castrol"
+msgstr "تمامی حقوق محفوظ است"
+
+#~ msgid "to"
+#~ msgstr "به"

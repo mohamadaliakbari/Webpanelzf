@@ -1,0 +1,57 @@
+<div class="box1">
+	<div class="titleC block">
+		<div class="title block"><?php echo $this->translate("لیست صفحات"); ?></div>
+	</div>
+	<div class="content block">
+		<div class="box3medium">
+			<div class="titleC block">
+				<div class="title block"><?php echo $this->translate("اعضاء"); ?></div>
+			</div>
+			<div class="content block">
+				<a class="button" href="<?php echo $this->url(array('module'=>'member', 'controller'=>'index', 'action'=>'login')); ?>"><?php echo $this->translate("ورود"); ?></a>
+				<a class="button" href="<?php echo $this->url(array('module'=>'member', 'controller'=>'index', 'action'=>'units')); ?>"><?php echo $this->translate("تعریف واحد"); ?></a>
+				<a class="button" href="<?php echo $this->url(array('module'=>'member', 'controller'=>'index', 'action'=>'groups')); ?>"><?php echo $this->translate("گروه مشتری"); ?></a>
+				<a class="button" href="<?php echo $this->url(array('module'=>'member', 'controller'=>'index', 'action'=>'addrole')); ?>"><?php echo $this->translate("نقش کاربران"); ?></a>
+				<a class="button" href="<?php echo $this->url(array('module'=>'member', 'controller'=>'index', 'action'=>'add')); ?>"><?php echo $this->translate("کاربران و مشتریان"); ?></a>
+			</div>
+		</div>
+		<br/>
+		<div class="box3medium">
+			<div class="titleC block">
+				<div class="title block"><?php echo $this->translate("سفارشات"); ?></div>
+			</div>
+			<div class="content block">
+				<a class="button" href="<?php echo $this->url(array('module'=>'order', 'controller'=>'index', 'action'=>'add')); ?>"><?php echo $this->translate("New Order"); ?></a>
+			</div>
+		</div>
+		<br/>
+		<div class="box3medium">
+			<div class="titleC block">
+				<div class="title block"><?php echo $this->translate("محصولات"); ?></div>
+			</div>
+			<div class="content block">
+				<a class="button" href="<?php echo $this->url(array('module'=>'product', 'controller'=>'index', 'action'=>'add')); ?>"><?php echo $this->translate("New Product"); ?></a>
+				<a class="button" href="<?php echo $this->url(array('module'=>'product', 'controller'=>'index', 'action'=>'addtype')); ?>"><?php echo $this->translate("New Product Type"); ?></a>
+				<a class="button" href="<?php echo $this->url(array('module'=>'product', 'controller'=>'index', 'action'=>'pricegoupe')); ?>"><?php echo $this->translate("گروه قیمت و تخفیف محصولات"); ?></a>
+			</div>
+		</div><!--
+		<br/>
+		<div class="box3medium">
+			<div class="titleC block">
+				<div class="title block"><?php echo $this->translate("انبار"); ?></div>
+			</div>
+			<div class="content block">
+				<a class="button" href="<?php echo $this->url(array('module'=>'warehouse', 'controller'=>'index', 'action'=>'list')); ?>"><?php echo $this->translate("List"); ?></a>
+			</div>
+		</div>-->
+	</div>
+</div>
+<br/>
+<div class="box2">
+	<div class="titleC block">
+		<div class="title block"><?php echo $this->translate("راهنما"); ?></div>
+	</div>
+	<div class="content block">
+		از میان صفحات یک صفحه را انتخاب کنید
+	</div>
+</div>

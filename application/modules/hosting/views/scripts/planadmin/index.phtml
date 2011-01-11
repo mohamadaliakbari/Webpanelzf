@@ -1,0 +1,15 @@
+<table width="100%" cellpadding="0px" cellspacing="0px" border="0" class="list">
+    <tr>
+        <th><?php echo $this->translate('Name'); ?></th>
+        <th><?php echo $this->translate('Quota'); ?></th>
+        <th><?php echo $this->translate('Bandwidth'); ?></th>
+        <th><?php echo $this->translate('Reseller'); ?></th>
+        <th><?php echo $this->translate('Cost Per Month'); ?></th>
+        <th><?php echo $this->translate('Cost Per Year'); ?> <a class="mini-help" title="<?php echo $this->translate('1 month discount'); ?>">(?)</a></th>
+        <th><?php echo $this->translate('Function'); ?></th>
+    </tr>
+    <?php echo $this->partialLoop('planadmin/row.phtml', $this->paginator); ?>
+    <tr>
+        <td colspan="7" align="center"><?php echo $this->paginationControl($this->paginator, 'Sliding', 'planadmin/pagination-control.phtml'); ?></td>
+    </tr>
+</table>

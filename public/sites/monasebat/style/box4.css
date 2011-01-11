@@ -1,0 +1,55 @@
+.box4 {
+	width: 500px;
+	float: right;
+}
+
+.box4 .right {
+	width: 300px;
+	float: right;
+}
+
+.box4 .right .title {
+	width: 300px;
+	margin: 5px 0px;
+	font-weight: bold;
+}
+
+.box4 .right ul {
+	list-style: none;
+	width: 300px;
+}
+
+.box4 .right ul  li{
+	border-bottom: 1px solid #FFFFFF;
+	padding: 5px;
+}
+
+.box4 .right ul  li span{
+	width: 60px;
+	float: right;
+	margin-left: 5px;
+	border-left: 1px solid #FFFFFF;
+}
+
+.box4 .right ul  li:nth-child(2n+1) {
+	background-color: #DDDFD2;
+}
+
+.box4 .right ul  li:nth-child(2n+2) {
+	background-color: #F2F2F2;
+}
+
+.box4 .right ul  li.last {
+	border-top: 4px solid #141414;
+	background-color: #FFFFFF;
+	text-align: left;
+}
+
+.box4 .left {
+	width: 185px;
+	margin-right: 5px;
+	float: right;
+	padding: 25px 5px;
+	text-align: justify;
+	line-height: 16px;
+}

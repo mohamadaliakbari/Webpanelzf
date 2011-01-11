@@ -1,0 +1,12 @@
+<tr>
+    <td><a title="<?php echo $this->translate('Edit'); ?>" href="<?php echo $this->url(array('action' => 'edit', 'id' => $this->id)); ?>"><?php echo $this->firstname; ?></a></td>
+    <td><a title="<?php echo $this->translate('Edit'); ?>" href="<?php echo $this->url(array('action' => 'edit', 'id' => $this->id)); ?>"><?php echo $this->lastname; ?></a></td>
+    <td><a href="mailto:<?php echo $this->email; ?>"><?php echo $this->email; ?></a></td>
+    <td><?php echo $this->telephone; ?></td>
+    <td><?php echo $this->mobile; ?></td>
+    <td><?php echo $this->discount; ?></td>
+    <td>
+        <a title="<?php echo $this->translate('Edit'); ?>" href="<?php echo $this->url(array('action' => 'edit', 'id' => $this->id)); ?>"><img alt="<?php echo $this->translate('Edit'); ?>" src="<?php echo $this->baseUrl().'/sites/office-web-admin/images/icons/16/aspnet/edit.gif'; ?>" /></a>
+        <a title="<?php echo $this->translate('Delete'); ?>" href="<?php echo $this->url(array('action' => 'delete', 'id' => $this->id)); ?>"><img alt="<?php echo $this->translate('Delete'); ?>" src="<?php echo $this->baseUrl().'/sites/office-web-admin/images/icons/16/aspnet/delete.gif'; ?>" /></a>
+    </td>
+</tr>

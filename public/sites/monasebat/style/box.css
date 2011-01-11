@@ -1,0 +1,121 @@
+.box {
+	width: 250px;
+	float: right;
+}
+
+.box .top {
+	width: 250px;
+	height: 6px;
+	font-size: 0px;
+	float: right;
+	background: url("images/box_sprite.jpg") 0px 0px no-repeat;
+}
+
+.box .bg {
+	width: 230px;
+	height: auto;
+	float: right;
+	background: url("images/box_bg.jpg") repeat-y;
+	padding: 5px 10px;
+}
+
+.box .bottom {
+	width: 250px;
+	height: 6px;
+	font-size: 0px;
+	float: right;
+	background: url("images/box_sprite.jpg") 0px -6px no-repeat;
+	margin-bottom: 10px;
+}
+
+.box .bg .inner {
+	background: #e6e6e6;
+	padding: 10px 10px;
+}
+.box .title {
+	font-weight: bold;
+}
+.box .product{
+	margin: 10px 0px;
+	background: #FFFFFF;
+	border: 1px #c8d5d9 solid;
+	width: 210px;
+	height: 60px;
+}
+
+.box .product .info {
+	width: 146px;
+	height: 60px;
+	float: right;
+	margin: 1px;
+}
+
+.box .product .image {
+	width: 58px;
+	height: 58px;
+	float: left;
+	margin: 1px;
+	background: url("images/box_product_placeholder.jpg") no-repeat right;
+}
+
+.box .product .info .name{
+	color: #004276;
+	padding: 1px 2px;
+}
+.box .product .info .name a {
+	color: #004276;
+}
+.box .product .info .brief{
+	color: #00003a;
+	padding: 1px 2px;
+	font-size: 0.9em;
+}
+
+.box .product .info .more_multimedia {
+	background: url("images/icon_multimedia.jpg") no-repeat right;
+	color: #004276;
+	text-align: left;
+	padding: 1px 2px;
+}
+
+.box .product .info .more_banner {
+	background: url("images/icon_banner.jpg") no-repeat right;
+	color: #004276;
+	text-align: left;
+}
+
+.box .product .info .more_banner  ,.box .product .info .more_multimedia a{
+	color: #004276;
+	font-size: 0.9em;
+}
+
+.box .more_product {
+	width: 210px;
+	height: 13px;
+	float: right;
+	background: #234582;
+	color: #FFFFFF;
+	line-height: 13px;
+	padding: 1px 0px;
+	margin: 2px 0px;
+	text-align: center;
+}
+
+.box .articles{
+	margin: 10px 0px;
+	background: #FFFFFF;
+	border: 1px #c8d5d9 solid;
+	padding: 5px;
+}
+
+.box .more_article {
+	width: 210px;
+	height: 13px;
+	float: right;
+	background: #234582;
+	color: #FFFFFF;
+	line-height: 13px;
+	padding: 1px 0px;
+	margin: 2px 0px;
+	text-align: center;
+}

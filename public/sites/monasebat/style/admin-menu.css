@@ -1,0 +1,51 @@
+.menubox {
+    width: 455px;
+    height: auto;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    background: #D5DED9;
+    border: 1px dashed #fdf5ce;
+}
+
+.tools {
+    width: 413px;
+    height: 32px;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    background: #dddddd;
+    border: 1px dashed #fbf9ee;
+}
+
+.tools .icon-edit {
+    width: 32px;
+    height: 32px;
+    float: right;
+    margin: 0px 5px;
+    background: url("images/icon-edit.png");
+}
+
+.tools .icon-delete {
+    width: 32px;
+    height: 32px;
+    float: right;
+    margin: 0px 5px;
+    background: url("images/icon-delete.png");
+}
+
+.tools .icon-yes {
+    width: 32px;
+    height: 32px;
+    float: right;
+    margin: 0px 5px;
+    background: url("images/icon-yes.png");
+}
+
+.tools .icon-no {
+    width: 32px;
+    height: 32px;
+    float: right;
+    margin: 0px 5px;
+    background: url("images/icon-no.png");
+}

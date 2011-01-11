@@ -1,0 +1,21 @@
+.list {
+    border: 1px solid #CCCCCC;
+}
+
+.list td, .list th {
+    padding: 5px 10px;
+    text-align: right;
+}
+
+.list th {
+    background: #EEEEEE;
+    border-bottom: 2px solid #BBBBBB;
+}
+
+.list td {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.list tr:nth-child(odd) {
+    background: #F5F5F5;
+}

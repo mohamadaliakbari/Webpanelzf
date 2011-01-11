@@ -1,0 +1,28 @@
+<?php
+echo '<?xml version="1.0" encoding="UTF-8" ?>';
+echo $this->doctype();
+?>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<?php
+        echo $this->headTitle();
+        echo $this->headScript();
+		echo $this->headStyle();
+        echo $this->headLink();
+        ?>
+    </head>
+    <body>
+        <div id="pageWrapper">
+            <div id="header">
+                <h1>Member-index-one-ine</h1>
+            </div>
+            <div id="main">
+                <?php echo $this->layout()->content;?>&nbsp;
+            </div>
+            <div id="footer">
+                <p><em>Powered by the Zend Framework</em></p>
+            </div>
+        </div>
+        </body>
+</html>

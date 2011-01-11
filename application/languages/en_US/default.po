@@ -1,0 +1,976 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: castrol\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-08 21:44+0330\n"
+"PO-Revision-Date: 2010-10-08 21:45+0330\n"
+"Last-Translator: amirhosseinakbari <amirhossainakbari@yahoo.com>\n"
+"Language-Team: roshd\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;translate\n"
+"X-Poedit-Basepath: C:\\wamp\\www\\castrol\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: IRAN, ISLAMIC REPUBLIC OF\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: application\n"
+
+#: application/modules/member/controllers/IndexController.php:18
+msgid "Login"
+msgstr ""
+
+#: application/modules/default/views/scripts/index/index.phtml:3
+#: application/modules/default/views/scripts/index/index.phtml:16
+#: application/modules/default/views/scripts/index/index.phtml:25
+msgid "Box Title"
+msgstr ""
+
+#: application/modules/default/views/scripts/index/index.phtml:6
+msgid "New Order"
+msgstr ""
+
+#: application/modules/default/views/scripts/index/index.phtml:8
+msgid "New User/Customer"
+msgstr ""
+
+#: application/modules/default/views/scripts/index/index.phtml:10
+msgid "New Product Type"
+msgstr ""
+
+#: application/modules/default/views/scripts/index/index.phtml:19
+#: application/modules/default/views/scripts/index/index.phtml:28
+msgid "Box Content"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:3
+msgid "Add new:"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:6
+#: application/modules/member/views/scripts/index/add.phtml:168
+#: application/modules/member/views/scripts/index/addrole.phtml:43
+#: application/modules/order/views/scripts/index/add.phtml:30
+msgid "Customer"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:7
+#: application/modules/order/views/scripts/index/add.phtml:345
+msgid "User"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:13
+msgid "Personal Information"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:17
+msgid "First name"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:18
+msgid "Last name"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:19
+msgid "Email"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:20
+msgid "Identity Card Number"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:21
+msgid "Birthday"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:22
+msgid "National ID"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:23
+#: application/modules/member/views/scripts/index/add.phtml:39
+#: application/modules/member/views/scripts/index/add.phtml:107
+#: application/modules/member/views/scripts/index/add.phtml:121
+#: application/modules/member/views/scripts/index/add.phtml:186
+#: application/modules/member/views/scripts/index/add.phtml:212
+#: application/modules/member/views/scripts/index/addrole.phtml:90
+#: application/modules/order/views/scripts/index/add.phtml:364
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:84
+msgid "Save"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:24
+#: application/modules/member/views/scripts/index/add.phtml:40
+#: application/modules/member/views/scripts/index/add.phtml:122
+msgid "Edit"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:31
+msgid "Account Information"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:35
+msgid "User Name"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:36
+msgid "User Status"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:37
+msgid "Active"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:38
+msgid "Inactive"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:41
+msgid "Change Password"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:48
+msgid "Costumer & Contract Information"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:52
+msgid "Costumer Code"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:53
+msgid "Costumer Group"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:54
+msgid "Group1"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:55
+msgid "Group2"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:57
+msgid "Tedad rooz shamel e takhfif khosh hesabi dar gharardad"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:57
+msgid "Days"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:58
+msgid "State"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:60
+msgid "State1"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:61
+msgid "State2"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:63
+msgid "Town"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:65
+msgid "Town1"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:66
+msgid "Town2"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:68
+#: application/modules/order/views/scripts/index/add.phtml:162
+msgid "Address"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:74
+msgid "Targret Information"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:77
+#: application/modules/member/views/scripts/index/addrole.phtml:6
+#: application/modules/member/views/scripts/index/addrole.phtml:55
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:6
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:47
+msgid "New"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:80
+msgid "New Target"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:85
+#: application/modules/member/views/scripts/index/add.phtml:214
+#: application/modules/order/views/scripts/index/add.phtml:109
+msgid "From"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:85
+#: application/modules/member/views/scripts/index/add.phtml:96
+#: application/modules/order/views/scripts/index/add.phtml:109
+#: application/modules/order/views/scripts/index/add.phtml:120
+msgid "Select"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:89
+#: application/modules/member/views/scripts/index/add.phtml:100
+#: application/modules/order/views/scripts/index/add.phtml:113
+#: application/modules/order/views/scripts/index/add.phtml:124
+msgid "Equivalent"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:93
+#: application/modules/order/views/scripts/index/add.phtml:117
+msgid "Jalali"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:96
+#: application/modules/member/views/scripts/index/add.phtml:214
+#: application/modules/order/views/scripts/index/add.phtml:120
+msgid "To"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:104
+#: application/modules/order/views/scripts/index/add.phtml:128
+msgid "Gregorian"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:113
+msgid "Targets"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:128
+#: application/modules/order/views/scripts/index/add.phtml:48
+#: application/modules/order/views/scripts/index/add.phtml:192
+msgid "Summary of Financial Status"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:133
+#: application/modules/order/views/scripts/index/add.phtml:53
+msgid "Debtor"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:137
+#: application/modules/order/views/scripts/index/add.phtml:57
+msgid "Creditor"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:141
+#: application/modules/order/views/scripts/index/add.phtml:61
+msgid "Balance"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:147
+msgid "Pending Payments"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:153
+#: application/modules/order/views/scripts/index/add.phtml:67
+msgid "View Complete Financial File"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:159
+msgid "User Privilege"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:162
+msgid "Workgroup"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:163
+#: application/modules/member/views/scripts/index/addrole.phtml:42
+#: application/modules/order/views/scripts/index/add.phtml:8
+msgid "Supervisor"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:164
+msgid "Warehouse1"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:165
+msgid "Warehouse2"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:166
+msgid "Sales executive"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:167
+msgid "Supply chain manager"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:169
+msgid "Manager director"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:170
+msgid "Finance"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:171
+#: application/modules/member/views/scripts/index/addrole.phtml:51
+msgid "Logestic"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:172
+#: application/modules/member/views/scripts/index/addrole.phtml:52
+msgid "Admin"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:173
+msgid "Salesman"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:174
+msgid "User Role"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:175
+msgid "Supervisor OEM"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:176
+msgid "Supervisor FWS"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:177
+msgid "Sales executive OEM"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:178
+msgid "Sub customer groups"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:179
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:52
+msgid "Select All"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:180
+msgid "Bazzari 1"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:181
+msgid "Bazzari 2"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:182
+msgid "FWS"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:187
+#: application/modules/member/views/scripts/index/add.phtml:213
+#: application/modules/member/views/scripts/index/addrole.phtml:91
+#: application/modules/order/views/scripts/index/add.phtml:365
+#: application/modules/order/views/scripts/index/add.phtml:382
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:85
+msgid "Cancel"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:211
+#: application/modules/member/views/scripts/index/addrole.phtml:21
+#: application/modules/member/views/scripts/index/addrole.phtml:28
+#: application/modules/member/views/scripts/index/addrole.phtml:108
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:21
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:28
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:102
+msgid "View"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:216
+#: application/modules/member/views/scripts/index/add.phtml:224
+msgid "Product type"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:218
+msgid "Unit"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:220
+msgid "Amount"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:222
+#: application/modules/order/views/scripts/index/add.phtml:269
+#: application/modules/order/views/scripts/index/add.phtml:341
+msgid "Add"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:224
+#: application/modules/member/views/scripts/index/addrole.phtml:10
+#: application/modules/member/views/scripts/index/addrole.phtml:58
+#: application/modules/member/views/scripts/index/groups.phtml:10
+#: application/modules/member/views/scripts/index/units.phtml:10
+#: application/modules/order/views/scripts/index/add.phtml:281
+#: application/modules/product/views/scripts/index/add.phtml:10
+#: application/modules/product/views/scripts/index/addtype.phtml:10
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:10
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:50
+msgid "Function"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:224
+#: application/modules/member/views/scripts/index/addrole.phtml:11
+#: application/modules/member/views/scripts/index/addrole.phtml:59
+#: application/modules/member/views/scripts/index/groups.phtml:11
+#: application/modules/member/views/scripts/index/units.phtml:11
+#: application/modules/order/views/scripts/index/add.phtml:282
+#: application/modules/product/views/scripts/index/add.phtml:11
+#: application/modules/product/views/scripts/index/addtype.phtml:11
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:11
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:51
+msgid "Row"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:224
+msgid "Amount-Unit"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:224
+msgid "Amount-Liter"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:224
+msgid "Unit Cost"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/add.phtml:224
+msgid "Cost"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:3
+msgid "Defined Group Roles Table"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:7
+#: application/modules/member/views/scripts/index/groups.phtml:7
+#: application/modules/member/views/scripts/index/units.phtml:7
+#: application/modules/product/views/scripts/index/add.phtml:7
+#: application/modules/product/views/scripts/index/addtype.phtml:7
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:7
+msgid "Back to previous page"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:12
+#: application/modules/member/views/scripts/index/addrole.phtml:37
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:12
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:37
+msgid "Group code"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:13
+#: application/modules/member/views/scripts/index/addrole.phtml:39
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:13
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:39
+msgid "Group name"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:14
+msgid "Work Group & Users"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:34
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:34
+msgid "Add Form"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:41
+#: application/modules/member/views/scripts/index/addrole.phtml:77
+msgid "Work Groups"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:44
+msgid "Seler"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:45
+msgid "Warehouse 1"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:46
+msgid "Warehouse 2"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:47
+msgid "Sales man"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:48
+msgid "Factory manager"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:49
+msgid "Manager"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:50
+msgid "Financial"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:54
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:46
+msgid "Users of this group"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:60
+msgid "User Code"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:61
+msgid "User name"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:78
+msgid "Make new order"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:79
+msgid "Edit Orders"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:80
+msgid "Cancel Orders"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:81
+msgid "Remove Orders"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:82
+msgid "Define cheque"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:83
+msgid "Assign cheque"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:84
+msgid "Approve cheque"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:85
+msgid "Approve HAVALE"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:86
+msgid "Approve Orders"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:87
+msgid "Finilize Orders"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/addrole.phtml:88
+msgid "___"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/groups.phtml:3
+msgid "Add Customer Group"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/groups.phtml:6
+msgid "New Group"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/groups.phtml:12
+msgid "Group Code"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/groups.phtml:13
+msgid "Group Name"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/groups.phtml:14
+msgid "Group Members"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/index.phtml:2
+#: application/modules/member/views/scripts/index/index.phtml:3
+msgid "hi"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/index.phtml:4
+msgid "bye"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/index.phtml:5
+msgid "bye2"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/index.phtml:6
+#, php-format
+msgid "To day id %s"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/units.phtml:3
+msgid "Add New Unit"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/units.phtml:6
+msgid "New Unit"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/units.phtml:12
+msgid "Unit Code"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/units.phtml:13
+msgid "Unit Name In System"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/units.phtml:14
+msgid "Unit Name in GFO"
+msgstr ""
+
+#: application/modules/member/views/scripts/index/units.phtml:15
+msgid "Unit Type"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:3
+msgid "Choose Customer"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:19
+msgid "Seller"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:42
+msgid "Retrieving Draft Orders"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:73
+msgid "General Info of the Order"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:78
+msgid "Customer Name"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:82
+msgid "Customer Group"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:90
+msgid "Type of Deliveyr"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:104
+msgid "Delivery Date"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:133
+msgid "Delivery Address"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:135
+msgid "Customer Address"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:136
+msgid "Iran Kanoon"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:137
+msgid "New Address"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:143
+msgid "Choose State"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:152
+msgid "City"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:170
+msgid "Telephone"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:174
+msgid "Mobile"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:178
+msgid "Fax"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:197
+msgid "Choose Product Type"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:206
+msgid "Order Unit"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:216
+msgid "Order Value"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:220
+msgid "Equivalents"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:224
+msgid "Gallons and"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:228
+msgid "Liter"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:231
+#: application/modules/order/views/scripts/index/add.phtml:286
+msgid "Unit Price"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:235
+#: application/modules/order/views/scripts/index/add.phtml:240
+#: application/modules/order/views/scripts/index/add.phtml:245
+#: application/modules/order/views/scripts/index/add.phtml:252
+#: application/modules/order/views/scripts/index/add.phtml:257
+#: application/modules/order/views/scripts/index/add.phtml:261
+msgid "Rls"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:236
+msgid "Overall"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:241
+#: application/modules/order/views/scripts/index/add.phtml:288
+msgid "Agency Discount"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:248
+#: application/modules/order/views/scripts/index/add.phtml:289
+msgid "VAT"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:253
+msgid "Overall Price Calculating Discount and VAT"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:265
+msgid "Priority To Be Delivered."
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:270
+msgid "Reset"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:276
+msgid "Added Products to Order"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:283
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:54
+msgid "Product Name"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:284
+msgid "Value-Unit"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:285
+msgid "Value-Liter"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:287
+msgid "Overall Price"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:290
+msgid "Final Price"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:320
+msgid "Oveall Price"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:335
+#: application/modules/order/views/scripts/index/add.phtml:358
+msgid "Description"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:349
+msgid "Unchangeable"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:352
+msgid "Title"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:372
+msgid "Delete"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:373
+msgid "Final Submission"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:374
+msgid "Confirm"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:375
+msgid "Reject"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:376
+msgid "Send To SOE"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:379
+msgid "Print Draft Order"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:380
+msgid "Return To Previous Page"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:381
+msgid "Save Draft"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:383
+#: application/modules/order/views/scripts/index/add.phtml:387
+msgid "Print Order"
+msgstr ""
+
+#: application/modules/order/views/scripts/index/add.phtml:386
+msgid "Your Order Has Been Submitted For Being Reviewed. The Order ID is 2"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/add.phtml:3
+msgid "Added Products"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/add.phtml:6
+msgid "New Product"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/add.phtml:12
+msgid "Product Code"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/add.phtml:13
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:53
+msgid "Product Type"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/add.phtml:14
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:55
+msgid "Product Unit"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/add.phtml:15
+msgid "Liter Per Unit"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/add.phtml:16
+msgid "Number Per Package"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/add.phtml:17
+msgid "Product Name For Customers"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/add.phtml:18
+msgid "Product Name In Firm"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/addtype.phtml:3
+msgid "Add new product type"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/addtype.phtml:6
+msgid "New product type"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/addtype.phtml:12
+msgid "Product type code"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/addtype.phtml:13
+msgid "Name"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/addtype.phtml:14
+msgid "RPL (Rial)"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/addtype.phtml:15
+msgid "Waiting time for production"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:3
+msgid "Add Group, Agency Discount, Production"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:14
+msgid "Subcustomer Group, List of Prices and Discounts"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:41
+msgid "Subcustomer Groups"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:42
+msgid "Bazari 1 Isfahan"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:43
+msgid "Bazari 2 Tehran"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:44
+msgid "Toyota FWS"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:56
+msgid "Price"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:57
+msgid "Agency Discout Pecentage"
+msgstr ""
+
+#: application/modules/product/views/scripts/index/pricegoupe.phtml:58
+msgid "Discount (Rls)"
+msgstr ""
+
+#: application/views/layouts/default/index.phtml:2
+msgid "Castrol"
+msgstr ""
+
+#: application/views/layouts/default/index.phtml:36
+msgid "Persian"
+msgstr ""
+
+#: application/views/layouts/default/index.phtml:38
+msgid "English"
+msgstr ""
+
+#: application/views/layouts/default/index.phtml:41
+msgid "Welcome dear user"
+msgstr ""
+
+#: application/views/layouts/default/index.phtml:43
+msgid "Homepage"
+msgstr ""
+
+#: application/views/layouts/default/index.phtml:45
+msgid "Logout"
+msgstr ""
+
+#: application/views/layouts/default/index.phtml:47
+msgid "Edit Profile"
+msgstr ""
+
+#: application/views/layouts/default/index.phtml:54
+msgid "All right reserver &copy; Castrol"
+msgstr ""
+

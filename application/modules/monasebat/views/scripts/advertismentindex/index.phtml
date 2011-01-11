@@ -1,0 +1,9 @@
+<?php
+if ($this->ads['link'] != '') {
+    ?><a href="<?php echo $this->ads['link']; ?>">
+        <img src="/files/monasebat.com/ads/<?php echo $this->ads['image']; ?>" alt="<?php echo $this->ads['title']; ?>" title="<?php echo $this->ads['describe']; ?>" />
+    </a><?php
+} else {
+    ?><img src="/files/monasebat.com/ads/<?php echo $this->ads['image']; ?>" alt="<?php echo $this->ads['title']; ?>" title="<?php echo $this->ads['describe']; ?>" /><?php
+}
+?>

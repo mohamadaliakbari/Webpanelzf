@@ -1,0 +1,9 @@
+<div class="menubox">
+    <?php echo $this->translate("Title"); ?>: <?php echo $this->title; ?><br/>
+    <?php echo $this->translate("Link"); ?>: <?php echo $this->link; ?><br/>
+    <?php echo $this->translate("Place"); ?>: <?php echo $this->place; ?><br/>
+    <div class="tools">
+        <a class="icon-edit" title="<?php echo $this->translate("Edit"); ?>" href="<?php echo $this->url(array('action'=>'edit', 'id' => $this->id)); ?>"></a>
+        <a class="icon-delete" title="<?php echo $this->translate("Delete"); ?>" href="<?php echo $this->url(array('action'=>'delete', 'id' => $this->id)); ?>"></a>
+    </div>
+</div>

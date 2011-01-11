@@ -1,0 +1,11 @@
+<?php
+ $adapter = new Zend_File_Transfer_Adapter_Http();
+$files = $adapter->getFileInfo('image');
+$extension = pathinfo(($files['image']['name']), PATHINFO_EXTENSION);
+$adapter->addFilter('Rename',
+                    array('target' => './files/monasebat.com/ads/'.time().$extension,
+                          'overwrite' => true));
+if(!$adapter->receive()){
+    $this->view->msg = $adapter->getMessages();
+    return;
+}

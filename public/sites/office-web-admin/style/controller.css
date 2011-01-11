@@ -1,0 +1,56 @@
+.controller-bar {
+	width: 100%;
+	height: 23px;
+	padding-top: 2px;
+	background: url('images/controller-bar.jpg') repeat-x center;;
+	text-align: right;
+	direction: rtl;
+}
+
+.controller-bar ul {
+	list-style: none;
+}
+
+.controller-bar ul li {
+	float: left;
+	margin: 0px;
+	height: 23px;
+	height: 13px;
+	padding: 0px;
+}
+
+.controller-bar ul li  a{
+	margin: 0px;
+	height: 13px;
+	padding: 5px;
+	float: left;
+}
+
+.controller-bar ul li  a.left{
+	width: 5px;
+	float: left;
+	margin: 0px 0px 0px 1px;
+	height: 23px;
+	padding: 0px;
+}
+
+.controller-bar ul li  a.right{
+	width: 5px;
+	float: left;
+	margin: 0px 1px 0px 0px;
+	height: 23px;
+	padding: 0px;
+}
+
+
+.controller-bar ul li.active a.left {
+	background: url('images/action-bar-active-left.jpg') no-repeat;
+}
+
+.controller-bar ul li.active  a{
+	background: url('images/action-bar-active.jpg') repeat-x;
+}
+
+.controller-bar ul li.active a.right {
+	background: url('images/action-bar-active-right.jpg') no-repeat;
+}

@@ -1,0 +1,13 @@
+<table width="100%" cellpadding="0px" cellspacing="0px" border="0" class="list">
+    <tr>
+        <th><?php echo $this->translate('Domain'); ?></th>
+        <th><?php echo $this->translate('Duration'); ?>  <a class="mini-help" title="<?php echo $this->translate('Unit: month'); ?>">(?)</a></th>
+        <th><?php echo $this->translate('Cost'); ?></th>
+        <th><?php echo $this->translate('Expired'); ?></th>
+        <th><?php echo $this->translate('Function'); ?></th>
+    </tr>
+    <?php echo $this->partialLoop('orderadmin/row.phtml', $this->paginator); ?>
+    <tr>
+        <td colspan="5" align="center"><?php echo $this->paginationControl($this->paginator, 'Sliding', 'orderadmin/pagination-control.phtml'); ?></td>
+    </tr>
+</table>

@@ -1,0 +1,160 @@
+* {
+	font-family: tahoma;
+	font-size: 11px;
+	direction: rtl;
+        text-align: right;
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	margin-top: 6px;
+	text-decoration: none;
+}
+
+img {
+	border: none;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 760px;
+}
+
+.block {
+	display: inline-block; *
+	display: inline; *
+	vertical-align: middle;
+	zoom: 1;
+}
+
+.header {
+	width: 760px;
+	height: 100px;
+	float: right;
+	text-align: left;
+	background: url("images/head_r.jpg") right no-repeat;
+}
+.ads {
+	float: left;
+}
+
+.jclock {
+	float: right;
+}
+.topmenu {
+	width: 740px;
+	height: 13px;
+	float: right;
+	text-align: left;
+	background: url("images/top_menu_r.jpg") right no-repeat #407289;
+	line-height: 13px;
+	padding: 3px 10px;
+	color: #FFFFFF;
+}
+
+.topmenu a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.topmenu a:HOVER , .topmenu a.active {
+	color: #C5D9E8;
+}
+
+.colors {
+	width: 760px;
+	height: 19px;
+	float: right;
+	text-align: right;
+	line-height: 14px;
+	margin: 2px 0px;
+}
+
+.colors a {
+	color: #40738a;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.green, .yellow, .red, .blue {
+	width: 14px;
+	height: 14px;
+	float: right;
+	margin: 0px 2px;
+	cursor: pointer;
+}
+
+.green {
+	background-color: green;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.monasebat {
+	margin-right: 90px;
+}
+
+.bottommenu {
+	width: 740px;
+	height: 13px;
+	float: right;
+	text-align: center;
+	background: #407289;
+	line-height: 13px;
+	padding: 3px 10px;
+	color: #FFFFFF;
+}
+
+.bottommenu a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.bottommenu a:HOVER , .bottommenu a.active {
+	color: #C5D9E8;
+}
+
+.top_container {
+	
+}
+
+.right_side_container {
+	width: 250px;
+	float: right;
+	margin-left: 8px;
+}
+
+.left_box_container {
+	width: 500px;
+	float: left;
+}
+
+
+.footer {
+	width: 740px;
+	float: right;
+	text-align: center;
+	line-height: 13px;
+	padding: 3px 10px;
+	margin: 10px 0px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #333333;
+}
+
+.footer a:HOVER , .footer a.active {
+	color: #666666;
+}

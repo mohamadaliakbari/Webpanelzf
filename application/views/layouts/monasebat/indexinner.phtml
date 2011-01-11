@@ -1,0 +1,52 @@
+<?php
+$this->headTitle($this->translate('Monasebat'), $setType = 'PREPEND');
+$this->headTitle()->setSeparator(' :: ');
+$this->headScript()->appendFile($this->baseUrl('sites/monasebat/script/jquery-1.4.2.min.js'))->appendScript('JQ = jQuery.noConflict();');
+$this->headScript()->appendFile($this->baseUrl('sites/monasebat/script/core.js'));
+$this->headLink()->headLink(array('rel' => 'favicon', 'href' => $this->baseUrl('favicon.ico')), 'PREPEND')
+        ->appendStylesheet($this->baseUrl('sites/monasebat/style/style.css'));
+
+$this->layout()->topmenu = $this->action('topmenu', 'statics', 'monasebat');
+$this->layout()->bottommenu = $this->action('bottommenu', 'statics', 'monasebat');
+
+echo '<?xml version="1.0" encoding="UTF-8" ?>';
+echo $this->doctype();
+?>
+<html>
+    <head>
+        <?php
+        echo $this->headTitle();
+        echo $this->headScript();
+        echo $this->headLink();
+        ?>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header block">
+                <a class="ads" href="#"><img src="<?php echo $this->baseUrl('sites/monasebat/images/ads-holder.gif'); ?>" /></a>
+            </div>
+            <div class="topmenu block">
+                <a href="<?php echo $this->url(array('module' => 'monasebat', 'controller' => 'index', 'action' => 'index')); ?>"><?php echo $this->translate('Homepage'); ?></a>
+                |
+                <a href="<?php echo $this->url(array('module' => 'monasebat', 'controller' => 'multimedia', 'action' => 'index')); ?>"><?php echo $this->translate('Multimedia'); ?></a>
+                |
+                <a href="<?php echo $this->url(array('module' => 'monasebat', 'controller' => 'static', 'action' => 'index')); ?>"><?php echo $this->translate('Other Services'); ?></a>
+            </div>
+            <div class="colors block">
+                <a class="green block"></a><a class="yellow block"></a><a class="red block"></a><a class="blue block"></a>
+                <a class="monasebat block" href="http://www.monasebat.com">MONASEBAT.com</a>
+            </div>
+            <div class="body"><?php echo $this->layout()->content;?></div>
+            <div class="bottommenu block">
+                <a href="http://cgart.ir">خانه</a> | <a href="http://cgart.ir">خانه</a> | <a href="http://cgart.ir">خانه</a>
+            </div>
+            <div class="footer block">
+                خیابان امام خمینی ، بین نواب و رودکی ، پلاک 244
+                /
+                تلفن : 8-66846067   -   فکس : 66860133
+                /
+                همه حقوق برای مناسبت محفوظ است &copy; <a href="monasebat.com">monasebat.com</a> 1389
+            </div>
+        </div>
+    </body>
+</html>

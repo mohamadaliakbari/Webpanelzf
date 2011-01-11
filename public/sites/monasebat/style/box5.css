@@ -1,0 +1,38 @@
+.box5 {
+	width: 760px;
+	float: right;
+}
+
+.box5 .top {
+	width: 760px;
+	height: 6px;
+	font-size: 0px;
+	float: right;
+	background: url("images/box4_sprite.jpg") 0px 0px no-repeat;
+}
+
+.box5 .bg {
+	width: 740px;
+	height: auto;
+	float: right;
+	background: url("images/box4_bg.jpg") repeat-y;
+	padding: 5px 10px;
+}
+
+.box5 .bg .title {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.box5 .bottom {
+	width: 760px;
+	font-size: 0px;
+	height: 6px;
+	float: right;
+	background: url("images/box4_sprite.jpg") 0px -6px no-repeat;
+	margin-bottom: 10px;
+}
+
+.box5 img {
+	vertical-align: middle;
+}

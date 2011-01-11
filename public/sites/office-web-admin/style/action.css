@@ -1,0 +1,54 @@
+.action-bar {
+	width: 100%;
+	height: 89px;
+	background: url('images/action-bar.jpg') repeat-x center;
+	text-align: right;
+	direction: rtl;
+}
+
+.action-bar .box {
+	border: solid 1px #8db2e3;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	height: 83px;
+	float: left;
+	margin: 2px;
+	padding: 0px 10px;
+	background: url('images/action-icon-title.jpg') repeat-x bottom;
+}
+
+.action-bar .box a.icon {
+	height: 63px;
+	width: 38px;
+	float: left;
+	padding: 2px;
+	text-align: center;
+	background: none;
+	cursor: pointer;
+        font-size: 10px;
+}
+
+.action-bar .box a.icon:HOVER {
+	padding: 1px;
+	border: solid 1px #c2ad7c;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: url('images/action-icon-active.jpg') repeat-x;
+}
+
+.action-bar .box a.icon.active {
+	padding: 1px;
+	border: solid 1px #c2ad7c;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: url('images/action-icon-active.jpg') repeat-x;
+}
+
+.action-bar .box a.icon img {
+	margin: 2px;
+}
+
+.action-bar .box .label {
+    text-align: center;
+    padding: 1px 0px;
+}

@@ -1,0 +1,166 @@
+<?php
+$this->headTitle($this->translate('Monasebat'), $setType = 'PREPEND');
+$this->headTitle()->setSeparator(' :: ');
+$this->headScript()->appendFile($this->baseUrl('sites/monasebat/script/jquery-1.4.2.min.js'))->appendScript('JQ = jQuery.noConflict();');
+$this->headScript()->appendFile($this->baseUrl('sites/monasebat/script/core.js'));
+$this->headLink()->headLink(array('rel' => 'favicon','href' => $this->baseUrl('favicon.ico')),'PREPEND')
+				->appendStylesheet($this->baseUrl('sites/monasebat/style/style.css'))
+				->appendStylesheet($this->baseUrl('sites/monasebat/style/box.css'))
+				->appendStylesheet($this->baseUrl('sites/monasebat/style/box2.css'))
+				->appendStylesheet($this->baseUrl('sites/monasebat/style/box3.css'))
+				->appendStylesheet($this->baseUrl('sites/monasebat/style/box4.css'))
+				->appendStylesheet($this->baseUrl('sites/monasebat/style/box5.css'));
+echo '<?xml version="1.0" encoding="UTF-8" ?>';
+echo $this->doctype();
+?>
+<html>
+	<head>
+		<?php
+        echo $this->headTitle();
+        echo $this->headScript();
+        echo $this->headLink();
+        ?>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="header block">
+				<a class="ads" href="#"><img src="<?php echo $this->baseUrl('sites/monasebat/images/ads-holder.gif'); ?>" /></a>
+			</div>
+			<div class="topmenu block">
+				<a href="<?php echo $this->url(array('module'=>'default')); ?>"><?php echo $this->translate('Homepage'); ?></a>
+			</div>
+			<div class="colors block">
+				<a class="green block"></a><a class="yellow block"></a><a class="red block"></a><a class="blue block"></a>
+				<a class="monasebat block" href="http://www.monasebat.com">MONASEBAT.com</a>
+			</div>
+			<div class="body">
+				<div class="top_container">
+					<div class="box3">
+						<div class="title block">فعالیت ها >></div>
+						<div class="bg1 block">
+							<img src="<?php echo $this->baseUrl('sites/monasebat/images/icons/box3_multimedia.png'); ?>" />
+							<span>مالتی مدیا</span>
+							<a href="http://cgart.ir">تولید مالتی مدیای مناسبت های مذهبی</a>
+						</div>
+						<div class="bg2 block">
+							<img src="<?php echo $this->baseUrl('sites/monasebat/images/icons/box3_banner.png'); ?>" />
+							<span>بنر</span>
+							<a href="http://cgart.ir">تولید بنرهای مذهبی و تبلیغاتی</a>
+						</div>
+						<div class="bg3 block">
+							<img src="<?php echo $this->baseUrl('sites/monasebat/images/icons/box3_content.png'); ?>" />
+							<span>محتوا</span>
+							<a href="http://cgart.ir">تولید محتوای آموزشی و مذهبی</a>
+						</div>
+						<div class="bg4 block">
+							<img src="<?php echo $this->baseUrl('sites/monasebat/images/icons/box3_web.png'); ?>" />
+							<span>وب</span>
+							<a href="http://cgart.ir">تولید نرم افزار های گسترش محتوای وب</a>
+						</div>
+					</div>
+				</div>
+				<div class="right_side_container">
+					<div class="box">
+						<div class="top block"></div>
+						<div class="bg">
+							<div class="inner">
+								<div class="title">خدمات جدید >></div>
+								<div class="product">
+									<div class="info block">
+										<div class="name"><a href="http://cgart.ir">خانواده ایرانی</a></div>
+										<div class="brief">مرجعی بی نظیر برای خانواده های ایرانی اسلامی</div>
+										<div class="more_multimedia"><a href="http://cgart.ir">مشخصات کامل</a></div>
+									</div>
+									<div class="image block"></div>
+								</div>
+								<div class="product">
+									<div class="info block">
+										<div class="name"><a href="http://cgart.ir">خانواده ایرانی</a></div>
+										<div class="brief">مرجعی بی نظیر برای خانواده های ایرانی اسلامی</div>
+										<div class="more_banner"><a href="http://cgart.ir">مشخصات کامل</a></div>
+									</div>
+									<div class="image block"></div>
+								</div>
+								<div class="block">
+									<a class="more_product block" href="http://cgart.ir">مجموعه کامل سی دی های مالتی مدیا </a>
+									<a class="more_product block" href="http://cgart.ir">مجموعه کامل بنرهای مناسبت</a>
+								</div>
+							</div>
+						</div>
+						<div class="bottom block"></div>
+					</div>
+					<div class="box">
+						<div class="top block"></div>
+						<div class="bg">
+							<div class="inner">
+								<div class="title">مقالات جدید >></div>
+								<div class="articles">
+									نستاینست اینتسشا ینستشاینسشینتسشای نسشای
+									<br/>
+									نستاینست اینتسشا ینستشاینسشینتسشای نسشای
+									<br/>
+									نستاینست اینتسشا ینستشاینسشینتسشای نسشای
+								</div>
+								<div class="block">
+									<a class="more_article block" href="http://cgart.ir">مجموعه مقالات درباره مناسبت ها</a>
+								</div>
+							</div>
+						</div>
+						<div class="bottom block"></div>
+					</div>
+				</div><!-- right_side_container -->
+				<div class="left_box_container">
+					<div class="box2">
+						<div class="top block"></div>
+						<div class="bg">
+							<div class="inner">
+								<div class="title">آخرین محصول مناسبت >></div>
+								<img src="<?php echo $this->baseUrl('sites/monasebat/images/box2_holder.jpg'); ?>"/>
+							</div>
+						</div>
+						<div class="bottom block"></div>
+					</div>
+					<div class="box4">
+						<div class="right">
+							<div class="title">مناسبت ها >></div>
+							<ul>
+								<li><span>22 خرداد</span><a>مناسبت اول و دوم و اول و دوم و خوب</a></li>
+								<li><span>22 خرداد</span><a>مناسبت اول و دوم و اول و دوم و خوب</a></li>
+								<li><span>22 خرداد</span><a>مناسبت اول و دوم و اول و دوم و خوب</a></li>
+								<li><span>22 خرداد</span><a>مناسبت اول و دوم و اول و دوم و خوب</a></li>
+								<li><span>22 خرداد</span><a>مناسبت اول و دوم و اول و دوم و خوب</a></li>
+								<li class="last"><a href="#">مشاهده تقویم کامل</a></li>
+							</ul>
+						</div>
+						<div class="left">
+							این تقویم به ایامی اختصاص دارد که Monasebat.com محصولات خود را به آنها اختصاص داده ؛
+							<br/>
+							برای مشاهده لیست کامل سالیانه و مهلت اتمام هر پروژه روی لینک آن کلیک نمایید ...
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="box5">
+				<div class="top block"></div>
+				<div class="bg">
+					<div class="title">شرکت های طرف قرار داد (سال 89) >></div>
+					<img src="<?php echo $this->baseUrl('sites/monasebat/images/companies/amirkabir.png'); ?>" />
+					<img src="<?php echo $this->baseUrl('sites/monasebat/images/companies/ucs_logo.png'); ?>" />
+					<img src="<?php echo $this->baseUrl('sites/monasebat/images/companies/jamaran_logo.png'); ?>" />
+					<img src="<?php echo $this->baseUrl('sites/monasebat/images/companies/Nofa_irLogo.png'); ?>" />
+				</div>
+				<div class="bottom block"></div>
+			</div>
+			<div class="bottommenu block">
+				<a href="http://cgart.ir">خانه</a> | <a href="http://cgart.ir">خانه</a> | <a href="http://cgart.ir">خانه</a>
+			</div>
+			<div class="footer block">
+				خیابان امام خمینی ، بین نواب و رودکی ، پلاک 244
+				/
+				تلفن : 8-66846067   -   فکس : 66860133
+				/
+				همه حقوق برای مناسبت محفوظ است &copy; <a href="monasebat.com">monasebat.com</a> 1389
+			</div>
+		</div>
+	</body>
+</html>

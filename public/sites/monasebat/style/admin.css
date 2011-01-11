@@ -1,0 +1,26 @@
+.admin_index_icon {
+    width: 72px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+    float: right;
+    border: 1px #99B2B7 solid;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    text-align: center;
+    font-size: 11px !important;
+}
+
+.admin_index_icon:HOVER {
+    background: #FED643;
+}
+
+.admin_index_icon img {
+    width: 72px;
+    height: 72px;
+}
+
+.paginationControl {
+    clear: both;
+    text-align: center;
+}
